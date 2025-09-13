@@ -7,7 +7,7 @@ class OpensearchAT2 < Formula
 
   keg_only :versioned_formula
 
-  depends_on "gradle" => :build
+  depends_on "gradle@8" => :build
   # Can be updated after https://github.com/opensearch-project/OpenSearch/pull/18085 is released.
   depends_on "openjdk@21"
 
